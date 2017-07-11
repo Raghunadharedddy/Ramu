@@ -23,7 +23,7 @@ public class TestDatabases {
 	public static void main(String[] args) throws SQLException {
 		String connectionString = "jdbc:derby://localhost:1527/demo";
 		String user = "admin";
-		String password = "pswd"
+		String password = "pswd";
 		
 		Connection connection = DriverManager.getConnection(connectionString, user, password);
 		
